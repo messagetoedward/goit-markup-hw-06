@@ -1,0 +1,43 @@
+.features {
+    &-content {
+    display: flex;
+    margin-top: -30px;
+    margin-left: -30px;
+    }
+    
+    &-list {
+    flex-basis: calc((100% - 120px) / 4);
+    margin-top: 30px;
+    margin-left: 30px;
+    }
+    
+    &-title {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    }
+    
+    &-text {
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--features-text-team-position-portfolio-projects-text);
+    }
+    
+    &-icon {
+    width: 70px;
+    height: 70px;
+    
+        &-conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    height: 120px;
+    background: #f5f4fa;
+    border-radius: 4px;
+        }    
+    }
+}
