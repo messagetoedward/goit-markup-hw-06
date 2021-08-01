@@ -1,8 +1,8 @@
-.ourjob-section {
+.ourjob__section {
   padding-bottom: 94px;
 }
 
-.ourjob-title {
+.ourjob__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -10,20 +10,20 @@
   margin-bottom: 50px;
 }
 
-.ourjob-list {
+.ourjob__list {
   display: flex;
   margin-top: -30px;
   margin-left: -30px;
 }
 
-.ourjob-list-item {
+.ourjob__list_item {
   flex-basis: calc((100% - 90px) / 3);
   margin-top: 30px;
   margin-left: 30px;
   position: relative;
 }
 
-.ourjob-list-item-text {
+.ourjob__list_item-text {
   position: absolute;
   padding-top: 27px;
   padding-bottom: 27px;
